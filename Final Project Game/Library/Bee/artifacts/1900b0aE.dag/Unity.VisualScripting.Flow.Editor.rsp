@@ -115,9 +115,15 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:STARTER_ASSETS_PACKAGES_CHECKED
+-define:PACKAGE_INPUT_SYSTEM_EXISTS
+-define:PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -328,6 +334,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll"
+-r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll"
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -339,6 +348,7 @@
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll"

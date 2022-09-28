@@ -625,10 +625,11 @@ MonoBehaviour:
   playerCamera: {fileID: 619819139}
   mouseSensitivity: 1
   lockCursor: 1
-  walkSpeed: 6
-  gravity: -9.81
   moveSmoothTime: 0.3
   mouseSmoothTime: 0.03
+  walkSpeed: 5
+  sprintSpeed: 10
+  gravity: -9.81
   jumpFallOff:
     serializedVersion: 2
     m_Curve:
@@ -655,6 +656,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   jumpMultiplier: 15
   jumpKey: 32
+  canSprint: 1
+  sprintKey: 304
 --- !u!4 &1560537090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400018, guid: d288a0e4a2d923b46898986e979da643,

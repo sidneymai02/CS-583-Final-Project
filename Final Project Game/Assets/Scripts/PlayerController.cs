@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Camera movement
     [SerializeField] Transform playerCamera; // Camera movement with mouse
     [SerializeField] float mouseSensitivity = 1.0f; // Create sensitivity for mouse
     [SerializeField] bool lockCursor = true; // Keep mouse cursor locked in the center of the screen
-    [SerializeField] float walkSpeed = 3.0f; // Walk speed of the character
-    [SerializeField] float gravity = -9.81f; // Adds gravity to the character
     [SerializeField][Range(0.0f, 0.5f)] float moveSmoothTime = 0.3f; // Smoothing of movement with a range slider between 0 and 5
     [SerializeField][Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f; // Smoothing of mouse movement with a range slider between 0 and 5
+
+    // Player Movement
+    [SerializeField] float walkSpeed = 5.0f; // Walk speed of the character
+    [SerializeField] float sprintSpeed = 10.0f; // Walk speed of the character
+    [SerializeField] float gravity = -9.81f; // Adds gravity to the character
     [SerializeField] private AnimationCurve jumpFallOff; // Specify how to jump
     [SerializeField] private float jumpMultiplier; // Multiplier to jump
     [SerializeField] private KeyCode jumpKey; // Key to jump
+    [SerializeField] private bool canSprint = true; // Boolean to check if the player can sprint
+    [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift; // Sets the sprint key to left shift
 
     float cameraPitch = 0.0f; // Track the camera's current x rotation
     float velocityY = 0.0f; // Track the downward speed of the character
@@ -26,6 +32,7 @@ public class PlayerController : MonoBehaviour
     Vector2 currentMouseDeltaVelocity = Vector2.zero; // Stores current mouse direction velocity
 
     private bool isGrounded; // Check to see if player is jumping
+    private bool isSprinting => canSprint && Input.GetKey(sprintKey); // Check to see if the player is sprinting
 
     // Start is called before the first frame update
     void Start()
@@ -51,7 +58,7 @@ public class PlayerController : MonoBehaviour
     // Mouse look functionalities
     void UpdateMouseLook()
     {
-        // Vertical and horizontal movement of the mouse
+        // Vertical and horizontal movement of the mouse. isSprinting and sprintSpeed to add in sprint feature
         Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
         // Smoothly transition current mouse position to the target value
@@ -77,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
         // Target value of the horizontal axis that you want to smooth towards
         Vector2 targetDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        
+
         // Normalizes the vector
         targetDir.Normalize();
 
@@ -97,7 +104,7 @@ public class PlayerController : MonoBehaviour
 
 
         // Velocity vector to set the speed and gravity
-        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
+        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * (isSprinting ? sprintSpeed : walkSpeed) + Vector3.up * velocityY;
 
         // Apply velocity to the character controller
         controller.Move(velocity * Time.deltaTime);
@@ -113,8 +120,9 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(JumpEvent());
         }
     }
-    
-    
+
+
+
     /*
     // Handles the jumping function of the player
     private void JumpInput()
@@ -127,15 +135,16 @@ public class PlayerController : MonoBehaviour
         }
     }
     */
+
     // Jump routine to create the movement
     private IEnumerator JumpEvent()
     {
         // Helps remove jittering when jumping against objects
         controller.slopeLimit = 90.0f;
-        
+
         // Tracks the amount of time the player has been in the air
         float timeInAir = 0.0f;
-        
+
         // Runs the jumping event
         do
         {
@@ -157,5 +166,4 @@ public class PlayerController : MonoBehaviour
         // Jumping has finished
         isGrounded = true;
     }
-
 }

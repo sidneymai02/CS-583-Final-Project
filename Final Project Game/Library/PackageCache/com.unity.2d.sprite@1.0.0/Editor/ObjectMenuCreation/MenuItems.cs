@@ -13,6 +13,12 @@ namespace UnityEditor.U2D
         const int k_PhysicsGameObjectMenuPriority = 2;
         const int k_SpriteMaskGameObjectMenuPriority = 6;
 
+        [MenuItem("Assets/Create/2D/Sprites/Triangle", priority = k_SpriteAssetMenuPriority)]
+        static void AssetsCreateSpritesTriangle(MenuCommand menuCommand)
+        {
+            ItemCreationUtility.CreateAssetObjectFromTemplate<Texture2D>("Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Triangle.png");
+        }
+
         [MenuItem("Assets/Create/2D/Sprites/Square", priority = k_SpriteAssetMenuPriority)]
         static void AssetsCreateSpritesSquare(MenuCommand menuCommand)
         {
@@ -89,6 +95,12 @@ namespace UnityEditor.U2D
             var sr = go.GetComponent<SpriteRenderer>();
             sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>(spritePath);
             return go;
+        }
+
+        [MenuItem("GameObject/2D Object/Sprites/Triangle", priority = k_SpriteGameObjectMenuPriority)]
+        static void GameObjectCreateSpritesTriangle(MenuCommand menuCommand)
+        {
+            CreateSpriteRendererGameObject("Triangle", "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Triangle.png", menuCommand);
         }
 
         [MenuItem("GameObject/2D Object/Sprites/Square", priority = k_SpriteGameObjectMenuPriority)]

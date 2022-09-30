@@ -121,21 +121,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
-    /*
-    // Handles the jumping function of the player
-    private void JumpInput()
-    {
-        // If the jump key is pressed and the player is not jumping already then run
-        if (Input.GetKeyDown(jumpKey) && !isJumping)
-        {
-            isJumping = true;
-            StartCoroutine(JumpEvent());
-        }
-    }
-    */
-
     // Jump routine to create the movement
     private IEnumerator JumpEvent()
     {

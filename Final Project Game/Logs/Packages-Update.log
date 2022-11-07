@@ -70,3 +70,11 @@ The following packages were updated:
   com.unity.postprocessing from version 3.0.3 to 3.2.2
   com.unity.purchasing from version 2.2.2 to 4.4.1
   com.unity.xr.legacyinputhelpers from version 2.1.7 to 2.1.10
+
+=== Sun Nov  6 16:18:18 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.inputsystem from version 1.4.2 to 1.4.3

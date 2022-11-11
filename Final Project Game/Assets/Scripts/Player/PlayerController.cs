@@ -34,9 +34,12 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded; // Check to see if player is jumping
     private bool isSprinting => canSprint && Input.GetKey(sprintKey); // Check to see if the player is sprinting
 
+    [HideInInspector] public StaminaController _staminaController;
+
     // Start is called before the first frame update
     void Start()
     {
+        _staminaController = GetComponent<StaminaController>();
         if (lockCursor)
         {
             // Obtains the character controller
@@ -51,6 +54,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Sprinting();
         UpdateMouseLook();
         UpdateMovement();
     }
@@ -77,6 +81,26 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up * currentMouseDelta.x * mouseSensitivity);
     }
 
+    void Sprinting()
+    {
+        if (_staminaController.stamina >= 5.0f)
+        {
+            sprintSpeed = 10.0f;
+        }
+        if (isSprinting && canSprint)
+        {
+            _staminaController.DecreaseEnergy();
+        }
+        if (_staminaController.stamina <= 0.0f)
+        {
+            sprintSpeed = 5.0f;
+        }
+        if (!isSprinting && _staminaController.stamina < _staminaController.maxStamina)
+        {
+            _staminaController.IncreaseEnergy();
+        }
+    }
+
     // Handles all normal movement functionality
     void UpdateMovement()
     {
@@ -101,7 +125,6 @@ public class PlayerController : MonoBehaviour
         }
         // Set velocity in Y direction to gravity
         velocityY += gravity * Time.deltaTime;
-
 
         // Velocity vector to set the speed and gravity
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * (isSprinting ? sprintSpeed : walkSpeed) + Vector3.up * velocityY;

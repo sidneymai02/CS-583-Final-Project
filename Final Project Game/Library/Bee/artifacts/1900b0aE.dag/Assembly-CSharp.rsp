@@ -388,6 +388,7 @@
 "Assets/FC Pirate Music Pack [Lite]/Scripts/MusicPlayer.cs"
 "Assets/Scripts/Interactables/Enemy.cs"
 "Assets/Scripts/Player/PlayerController.cs"
+"Assets/Scripts/Player/PlayerHook.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerWeapon.cs"
 "Assets/Scripts/Player/RayViewer.cs"

@@ -111,7 +111,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -329,12 +328,12 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"D:/GitHub/CS-583-Final-Project/Final Project Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/wanna/OneDrive/Desktop/CS583FinalProj/Final Project Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
@@ -387,11 +386,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/FC Pirate Music Pack [Lite]/Scripts/MusicPlayer.cs"
+"Assets/Scripts/Interactables/Enemy.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
+"Assets/Scripts/Player/PlayerWeapon.cs"
+"Assets/Scripts/Player/RayViewer.cs"
 "Assets/Scripts/Scenes/Menu.cs"
 "Assets/Scripts/Scenes/Menu2.cs"
 "Assets/Scripts/UI/StaminaController.cs"
+"Assets/SMC Pack 1/Demo/DemoAssets/V_SMC_Camera.cs"
+"Assets/SMC Pack 1/Demo/DemoAssets/V_SMC_Handler.cs"
+"Assets/SMC Pack 1/Demo/DemoAssets/V_Text.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
 "Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"

@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3045051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+    type: 3}
+  m_PrefabInstance: {fileID: 252790248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5046356
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +300,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &6484796 stripped
@@ -387,6 +403,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -581,6 +607,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -984,6 +1020,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
 --- !u!4 &156004824 stripped
@@ -1077,6 +1123,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_WithCrane
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3c8c3810406e2a488350d3ac348382c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f3c8c3810406e2a488350d3ac348382c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3c8c3810406e2a488350d3ac348382c, type: 3}
@@ -1186,6 +1242,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Banner_Barrels
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49e272a6035c131408a2014d7e13bbdd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49e272a6035c131408a2014d7e13bbdd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49e272a6035c131408a2014d7e13bbdd, type: 3}
@@ -1536,6 +1602,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &224775549 stripped
@@ -1678,6 +1754,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &252790249 stripped
@@ -1686,6 +1772,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 252790248}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &252790252
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5296371, y: 1.8371148, z: 1.5296397}
+  m_Center: {x: 0.0020145476, y: 0.9475584, z: -0.0032551587}
 --- !u!1 &254066818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1889,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &255941952 stripped
@@ -1883,6 +1992,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -2606,6 +2725,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &423128946 stripped
@@ -2700,6 +2829,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &424161254 stripped
@@ -2793,6 +2932,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -2948,6 +3097,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &463636315 stripped
@@ -3056,6 +3215,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -3166,6 +3335,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &471214886 stripped
@@ -3275,6 +3454,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &543026509 stripped
@@ -3383,6 +3572,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -3567,6 +3766,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -3970,6 +4179,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &607229889 stripped
@@ -4174,6 +4393,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
 --- !u!4 &657579499 stripped
@@ -4373,6 +4602,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &662342190 stripped
@@ -4561,6 +4800,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &672364364 stripped
@@ -4654,6 +4903,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -4763,6 +5022,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -4968,6 +5237,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &759066580 stripped
@@ -5076,6 +5355,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -5260,6 +5549,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -5566,6 +5865,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &848670436 stripped
@@ -5750,6 +6059,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -6045,6 +6364,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Banner_Barrels (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49e272a6035c131408a2014d7e13bbdd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49e272a6035c131408a2014d7e13bbdd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49e272a6035c131408a2014d7e13bbdd, type: 3}
 --- !u!4 &896059883 stripped
@@ -6153,6 +6482,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -6432,6 +6771,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
 --- !u!4 &932791137 stripped
@@ -6540,6 +6889,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -6811,6 +7170,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &981834385 stripped
@@ -6905,6 +7274,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1003276052 stripped
@@ -6998,6 +7377,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Single
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20f67ae64b4325f4fbb54f59729b96d2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20f67ae64b4325f4fbb54f59729b96d2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20f67ae64b4325f4fbb54f59729b96d2, type: 3}
@@ -7108,6 +7497,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1006018042 stripped
@@ -7217,6 +7616,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1007815210 stripped
@@ -7325,6 +7734,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -7545,6 +7964,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -7874,6 +8303,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1077088417 stripped
@@ -7982,6 +8421,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -8357,6 +8806,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1148912582 stripped
@@ -8466,6 +8925,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &1156310916 stripped
@@ -8560,6 +9029,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1164580698 stripped
@@ -8653,6 +9132,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -8917,9 +9406,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1256605947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room Objects
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9352,6 +9841,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1320283250 stripped
@@ -9541,6 +10040,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1375229353 stripped
@@ -9649,6 +10158,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -10130,6 +10649,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &1451760875 stripped
@@ -10238,6 +10767,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -10368,6 +10907,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2d7cad0c19c32fd47b653c1cb1d85037,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2d7cad0c19c32fd47b653c1cb1d85037,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d7cad0c19c32fd47b653c1cb1d85037, type: 3}
@@ -10537,6 +11086,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -10711,9 +11270,9 @@ MonoBehaviour:
   canSprint: 1
   isSprinting: 0
   groundDrag: 5
-  jumpForce: 7
+  jumpForce: 8
   jumpCooldown: 0.25
-  airMultiplier: 0.1
+  airMultiplier: 0.05
   crouchSpeed: 3.5
   crouchYScale: 0.5
   jumpKey: 32
@@ -10809,6 +11368,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -10989,6 +11558,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &1559075579 stripped
@@ -11082,6 +11661,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -11439,6 +12028,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -11834,6 +12433,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1650642817 stripped
@@ -11979,6 +12588,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -12169,6 +12788,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1718194219 stripped
@@ -12277,6 +12906,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -12387,6 +13026,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1726118405 stripped
@@ -12496,6 +13145,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1746147874 stripped
@@ -12604,6 +13263,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -12827,6 +13496,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1769984076 stripped
@@ -12936,6 +13615,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 42386b16574d80c4b82fdad4fb7e7bee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 42386b16574d80c4b82fdad4fb7e7bee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42386b16574d80c4b82fdad4fb7e7bee, type: 3}
 --- !u!4 &1829912271 stripped
@@ -13044,6 +13733,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -13248,6 +13947,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &1834557575 stripped
@@ -13431,6 +14140,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Crate_3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
@@ -13691,6 +14410,14 @@ PrefabInstance:
       value: SM_Env_Tile_Grass_01
       objectReference: {fileID: 0}
     - target: {fileID: 128328, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 128328, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 128328, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -13712,7 +14439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 415236, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -249.24806
+      value: -249.6
       objectReference: {fileID: 0}
     - target: {fileID: 415236, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14199,6 +14926,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1965096368 stripped
@@ -14292,6 +15029,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
@@ -14529,6 +15276,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &1973761387 stripped
@@ -14637,6 +15394,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -14766,6 +15533,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
 --- !u!4 &1998159937 stripped
@@ -14859,6 +15636,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -14969,6 +15756,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Crate_3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bfd54d226df73a47a1043fc694d508f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bfd54d226df73a47a1043fc694d508f, type: 3}
 --- !u!4 &2010202510 stripped
@@ -15078,6 +15875,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &2010471038 stripped
@@ -15117,6 +15924,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 99_Sea
       objectReference: {fileID: 0}
+    - target: {fileID: 271100265997461555, guid: 928b7ab55e4c640469989d2fad85c7d7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 271100265997461555, guid: 928b7ab55e4c640469989d2fad85c7d7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 615010652040901257, guid: 928b7ab55e4c640469989d2fad85c7d7,
         type: 3}
       propertyPath: m_RootOrder
@@ -15135,7 +15952,7 @@ PrefabInstance:
     - target: {fileID: 615010652040901257, guid: 928b7ab55e4c640469989d2fad85c7d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -249.54807
+      value: -250.5
       objectReference: {fileID: 0}
     - target: {fileID: 615010652040901257, guid: 928b7ab55e4c640469989d2fad85c7d7,
         type: 3}
@@ -15432,6 +16249,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
 --- !u!4 &2056993722 stripped
@@ -15525,6 +16352,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Sack_Stack (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fff8b52e2b2e5c94a8c220f902903426,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fff8b52e2b2e5c94a8c220f902903426, type: 3}
@@ -15780,6 +16617,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Market_Barrel_Stack_3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 811e88832050cd1429a156d3a8ec939d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811e88832050cd1429a156d3a8ec939d, type: 3}
 --- !u!4 &2073879473 stripped
@@ -15968,6 +16815,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd15de13cb7383047bd407f38b7b2a94,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd15de13cb7383047bd407f38b7b2a94, type: 3}
@@ -16777,6 +17634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 02_Market_Barrel_Single_Closed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803942775481093040, guid: 5f632f406b5298749b3cb4d4abd80117,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4576080946990059786, guid: 5f632f406b5298749b3cb4d4abd80117,
         type: 3}

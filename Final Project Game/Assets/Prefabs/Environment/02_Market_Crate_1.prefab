@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3112168178401582265}
   - component: {fileID: 2062507811935982364}
   - component: {fileID: 4286169710727882710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 02_Market_Crate_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

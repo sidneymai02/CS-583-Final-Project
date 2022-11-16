@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4576080946990059786}
   - component: {fileID: 589508609726586543}
   - component: {fileID: 3443755891815967333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 02_Market_Barrel_Single_Closed
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

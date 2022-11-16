@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7335858899476297625}
   - component: {fileID: 4767838130377900883}
   - component: {fileID: 3709960006815975634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 02_Market_Sack_Single
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

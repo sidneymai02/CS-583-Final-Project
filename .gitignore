@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-Final Game Project/[Ll]ibrary/
-Final Game Project/[Tt]emp/
-Final Game Project/[Oo]bj/
-Final Game Project/[Bb]uild/
-Final Game Project/[Bb]uilds/
-Final Game Project/[Ll]ogs/
-Final Game Project/[Uu]ser[Ss]ettings/
+/Final Project Game/[Ll]ibrary/
+/Final Project Game/[Tt]emp/
+/Final Project Game/[Oo]bj/
+/Final Project Game/[Bb]uild/
+/Final Project Game/[Bb]uilds/
+/Final Project Game/[Ll]ogs/
+/Final Project Game/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

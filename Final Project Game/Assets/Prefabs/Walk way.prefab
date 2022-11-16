@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8840215383780451927}
   - component: {fileID: -8438800936253498253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walk way
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 1047037787079685250}
   - component: {fileID: 6156921057775649337}
   - component: {fileID: 9149728849451092240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

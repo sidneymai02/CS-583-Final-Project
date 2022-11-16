@@ -20,7 +20,11 @@ MonoBehaviour:
     height: 772.8
   m_ShowMode: 4
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Title: Game
+=======
+  m_Title: Project
+>>>>>>> Stashed changes
 =======
   m_Title: Project
 >>>>>>> Stashed changes
@@ -79,7 +83,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 104
+=======
+  controlID: 63
+>>>>>>> Stashed changes
 =======
   controlID: 63
 >>>>>>> Stashed changes
@@ -159,7 +167,11 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 28
+=======
+  controlID: 62
+>>>>>>> Stashed changes
 =======
   controlID: 62
 >>>>>>> Stashed changes
@@ -204,8 +216,13 @@ MonoBehaviour:
     width: 964
     height: 380
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
 =======
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -286,8 +303,13 @@ MonoBehaviour:
     width: 304
     height: 307.2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
 =======
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -423,7 +445,11 @@ MonoBehaviour:
     m_SelectedIDs: f66d0000
     m_LastClickedID: 28150
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 000000003a680000326900003469000036690000386900003a6900003c6900003e69000040690000426900004469000046690000486900004a6900004c6900004e69000050690000526900005469000056690000586900005a6900005c690000
+=======
+    m_ExpandedIDs: 00000000a28a00008415010086150100881501008a1501008c1501008e15010090150100921501009415010096150100981501009a1501009c1501009e150100a0150100a2150100a4150100a6150100a8150100aa150100ac150100ae150100b0150100
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 00000000a28a00008415010086150100881501008a1501008c1501008e15010090150100921501009415010096150100981501009a1501009c1501009e150100a0150100a2150100a4150100a6150100a8150100aa150100ac150100ae150100b0150100
 >>>>>>> Stashed changes
@@ -455,7 +481,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: ffffffff000000003a680000326900003469000036690000386900003a6900003c6900003e69000040690000426900004469000046690000486900004c6900004e69000050690000526900005469000056690000586900005a6900005c690000a4690000a0800000
+=======
+    m_ExpandedIDs: ffffffff00000000a28a00008415010086150100881501008a1501008c1501008e15010090150100921501009415010096150100981501009a1501009c1501009e150100a0150100a2150100a4150100a6150100a8150100aa150100ac150100ae150100b0150100f6150100
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: ffffffff00000000a28a00008415010086150100881501008a1501008c1501008e15010090150100921501009415010096150100981501009a1501009c1501009e150100a0150100a2150100a4150100a6150100a8150100aa150100ac150100ae150100b0150100f6150100
 >>>>>>> Stashed changes
@@ -588,8 +618,13 @@ MonoBehaviour:
       width: 963
       height: 300.8
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Scale: {x: 1.2298737, y: 1.2298737}
     m_Translation: {x: 481.5, y: 150.4}
+=======
+    m_Scale: {x: 1.1468155, y: 1.1468155}
+    m_Translation: {x: 481.5, y: 150.39998}
+>>>>>>> Stashed changes
 =======
     m_Scale: {x: 1.1468155, y: 1.1468155}
     m_Translation: {x: 481.5, y: 150.39998}
@@ -601,15 +636,21 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       x: -391.50363
       y: -122.28898
       width: 783.00726
       height: 244.57796
 =======
+=======
+>>>>>>> Stashed changes
       x: -419.85828
       y: -131.14575
       width: 839.71655
       height: 262.2915
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     m_MinimalGUI: 1
   m_defaultScale: 1
@@ -980,9 +1021,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: 3c3df8ff
       m_LastClickedID: 0
       m_ExpandedIDs: 5ab1f8ff40c6ffff22f6fffff4f9ffffe4faffff6e670000c4670000
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e2cfffff82d2ffffdcd6ffffc8dbffff
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: 
       m_LastClickedID: 0

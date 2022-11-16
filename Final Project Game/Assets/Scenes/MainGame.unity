@@ -4191,6 +4191,7 @@ GameObject:
   - component: {fileID: 1529397254}
   - component: {fileID: 1529397255}
   - component: {fileID: 1529397257}
+  - component: {fileID: 1529397258}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -4246,6 +4247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   sprintSpeed: 8
+  canSprint: 1
+  isSprinting: 0
   groundDrag: 5
   jumpForce: 7
   jumpCooldown: 0.25
@@ -4261,7 +4264,24 @@ MonoBehaviour:
     m_Bits: 64
   maxSlopeAngle: 60
   orientation: {fileID: 1555417144}
+  _staminaController: {fileID: 0}
   state: 0
+--- !u!114 &1529397258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529397252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a9775ab69f4fd4dafd10cfd77357e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stamina: 30
+  maxStamina: 30
+  staminaBar: {fileID: 188359982}
+  dValue: 10
 --- !u!1001 &1541319927
 PrefabInstance:
   m_ObjectHideFlags: 0

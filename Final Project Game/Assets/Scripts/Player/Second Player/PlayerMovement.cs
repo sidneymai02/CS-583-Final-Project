@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
+    public bool canSprint = true;
+    public bool isSprinting = false;
 
     public float groundDrag;
 
@@ -40,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     public Transform orientation;
+    [HideInInspector] public StaminaController _staminaController;
 
     float horizontalInput;
     float verticalInput;
@@ -60,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        _staminaController = GetComponent<StaminaController>();
         rb.freezeRotation = true;
 
         readyToJump = true;
@@ -72,9 +76,13 @@ public class PlayerMovement : MonoBehaviour
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
+
+
         MyInput();
         SpeedControl();
         StateHandler();
+        Sprinting();
+
 
         // handle drag
         if (grounded)
@@ -127,9 +135,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Mode - Sprinting
-        else if (grounded && Input.GetKey(sprintKey))
+        else if (grounded && Input.GetKey(sprintKey) && canSprint)
         {
             state = MovementState.sprinting;
+            isSprinting = true;
             moveSpeed = sprintSpeed;
         }
 
@@ -137,6 +146,7 @@ public class PlayerMovement : MonoBehaviour
         else if (grounded)
         {
             state = MovementState.walking;
+            isSprinting = false;
             moveSpeed = walkSpeed;
         }
 
@@ -144,6 +154,26 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             state = MovementState.air;
+        }
+    }
+
+    void Sprinting()
+    {
+        if (_staminaController.stamina >= 5.0f)
+        {
+            canSprint = true;
+        }
+        if (_staminaController.stamina <= 0.0f)
+        {
+            canSprint = false;
+        }
+        if (isSprinting && canSprint)
+        {
+            _staminaController.DecreaseEnergy();
+        }
+        if (!isSprinting && _staminaController.stamina < _staminaController.maxStamina)
+        {
+            _staminaController.IncreaseEnergy();
         }
     }
 

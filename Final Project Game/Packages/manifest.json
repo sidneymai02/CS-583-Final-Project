@@ -13,6 +13,8 @@
     "com.unity.inputsystem": "1.4.3",
     "com.unity.postprocessing": "3.2.2",
     "com.unity.purchasing": "4.4.1",
+    "com.unity.render-pipelines.high-definition": "12.1.7",
+    "com.unity.render-pipelines.universal": "12.1.7",
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.6.4",

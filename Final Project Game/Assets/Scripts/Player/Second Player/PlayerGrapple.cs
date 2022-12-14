@@ -5,7 +5,7 @@
  public class PlayerGrapple : MonoBehaviour
  {
     [Header("References")]
-    private PlayerController pc;
+    private PlayerMovement pm;
     public Transform cam;
     public Transform grappleTip;
     public LayerMask grappleable;
@@ -14,6 +14,7 @@
     [Header("Grappling")]
     public float maxGrappleDistance;
     public float grappleDelayTime;
+    public float overshootYAxis;
 
     private Vector3 grapplePoint;
 
@@ -28,7 +29,7 @@
 
     private void Start()
     {
-        pc = GetComponent<PlayerController>();
+        pm = GetComponent<PlayerMovement>();
     }
 
     private void Update() 
@@ -56,6 +57,8 @@
 
         grappling = true;
 
+        pm.freeze = true;
+
         RaycastHit hit;
         if(Physics.Raycast(cam.position, cam.forward, out hit, maxGrappleDistance, grappleable))
         {
@@ -78,11 +81,23 @@
 
     private void ExecuteGrapple()
     {
+        pm.freeze = false;
 
+        Vector3 lowestPoint = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
+
+        float grapplePointRelativeYPos = grapplePoint.y - lowestPoint.y;
+        float highestPointOnArc = grapplePointRelativeYPos + overshootYAxis;
+
+        if (grapplePointRelativeYPos < 0) highestPointOnArc = overshootYAxis;
+
+        pm.JumpToPosition(grapplePoint, highestPointOnArc);
+
+        Invoke(nameof(StopGrapple), 1f);
     }
 
-    private void StopGrapple() 
+    public void StopGrapple() 
     {
+        pm.freeze = false;
         grappling = false;
         grapplingCdTimer = grapplingCd;
         lr.enabled = false;

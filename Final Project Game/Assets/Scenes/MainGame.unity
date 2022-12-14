@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7423,7 +7423,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: f99d388277d4fdb4393f85321b9e45e8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8e8d14f3bfea17047a7aa91d927e2432, type: 2}
+      objectReference: {fileID: 2100000, guid: b731df6b22368e94f93e02c963de87ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99d388277d4fdb4393f85321b9e45e8, type: 3}
 --- !u!1 &979274781 stripped
@@ -11699,6 +11699,8 @@ MonoBehaviour:
   orientation: {fileID: 1555417144}
   _staminaController: {fileID: 0}
   state: 0
+  freeze: 0
+  activeGrapple: 0
 --- !u!114 &1529397258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11733,9 +11735,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483647
   lr: {fileID: 717847326}
-  maxGrappleDistance: 50
-  grappleDelayTime: 2
-  grapplingCd: 2
+  maxGrappleDistance: 20
+  grappleDelayTime: 0.1
+  overshootYAxis: 0.1
+  grapplingCd: 1
   grappleKey: 324
 --- !u!1001 &1541319927
 PrefabInstance:
@@ -15045,9 +15048,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2301314, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301314, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9e1cc783c0d7c2741b491f0cfa6618c9, type: 2}
+      objectReference: {fileID: 5086727986680746777, guid: f8c0ee0be7cb0d8468444418b62fe30b,
+        type: 3}
     - target: {fileID: 3353468, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 3}
       propertyPath: m_Mesh
       value: 

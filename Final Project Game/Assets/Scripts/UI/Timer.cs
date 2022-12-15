@@ -38,7 +38,6 @@ public class Timer : MonoBehaviour
         timerText.text = "Timer: " + minutes + ":" + seconds;
     }
     public void Finish() {
-        Debug.Log("Done in: " + minutes + " and " + seconds);
         pm.freeze = true;
         finished = true;
         timerText.color = Color.red;

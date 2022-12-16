@@ -4582,8 +4582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9153fd553625fb449a897933634172e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 50
-  fpsCam: {fileID: 0}
 --- !u!114 &395310196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21193,7 +21191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1991432107}
-  timeScore: {fileID: 0}
+  timeScore: {fileID: 872015076}
 --- !u!114 &1529397261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21207,7 +21205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasPowerup: 0
-  s: {fileID: 0}
+  s: {fileID: 872015076}
 --- !u!4 &1530697563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762116082524232771, guid: 3fa76355d12594143a30d5539b6b75e1,
@@ -23986,7 +23984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738314169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -368.4, y: 6.3, z: 99.63}
+  m_LocalPosition: {x: -368.35, y: 8.9, z: 93.97}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25966,9 +25964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5016dbdb18889540818ca39802d19c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseXInputName: Mouse X
-  mouseYInputName: Mouse Y
-  mouseSensitivity: 150
 --- !u!81 &1894395901
 AudioListener:
   m_ObjectHideFlags: 0
@@ -26266,8 +26261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9153fd553625fb449a897933634172e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponRange: 50
-  fpsCam: {fileID: 0}
 --- !u!1 &1942195047
 GameObject:
   m_ObjectHideFlags: 0
@@ -30314,48 +30307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a28520e3c65e44582d799d567181dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 1894395899}
-  mouseSensitivity: 1
-  lockCursor: 1
-  moveSmoothTime: 0.3
-  mouseSmoothTime: 0.03
-  walkSpeed: 5
-  sprintSpeed: 10
-  gravity: -9.81
-  jumpFallOff:
-    m_Curve:
-    - time: 0
-      value: 1.0023499
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - time: 0.7000916
-      value: 0.00024414062
-      inSlope: -0.005618622
-      outSlope: -0.005618622
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.31423402
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  jumpMultiplier: 15
-  jumpKey: 32
-  canSprint: 1
-  sprintKey: 304
-  cameraPitch: 0
-  velocityY: 0
-  controller: {fileID: 0}
-  currentDir: {x: 0, y: 0}
-  currentDirVelocity: {x: 0, y: 0}
-  currentMouseDelta: {x: 0, y: 0}
-  currentMouseDeltaVelocity: {x: 0, y: 0}
-  isGrounded: 0
-  _staminaController: {fileID: 0}
 --- !u!143 &2143641013
 CharacterController:
   m_ObjectHideFlags: 0

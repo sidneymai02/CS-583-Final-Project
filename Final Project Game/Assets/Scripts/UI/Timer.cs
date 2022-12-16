@@ -12,6 +12,7 @@ public class Timer : MonoBehaviour
     private bool finished = false;
     private PlayerMovement pm;
     private PlayerGrapple pg;
+
     private float t;
     private string minutes;
     private string seconds;
@@ -41,20 +42,21 @@ public class Timer : MonoBehaviour
     }
     public void Finish() {
         pm.freeze = true;
-        pg.grappleKey = KeyCode.None;
+        pm.enabled = false;
+        pg.enabled = false;
         finished = true;
         timerText.color = Color.red;
 
-        if (minutes.Equals("0"))
-        {
-            timeScore.score = timeScore.score + 10;
-        }
-        else if(minutes.Equals("1"))
-        {
-            timeScore.score = timeScore.score + 5;
-        }
-        else if(minutes.Equals("2")) {
-            timeScore.score = timeScore.score + 2;
-        }
+        //if (minutes.Equals("0"))
+        //{
+            //timeScore.score = timeScore.score + 10;
+        //}
+        //else if(minutes.Equals("1"))
+        //{
+            //timeScore.score = timeScore.score + 5;
+        //}
+       // else if(minutes.Equals("2")) {
+            //timeScore.score = timeScore.score + 2;
+        //}
     }
 }
